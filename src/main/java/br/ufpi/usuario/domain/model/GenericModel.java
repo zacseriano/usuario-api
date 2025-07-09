@@ -1,4 +1,4 @@
-package br.ufpi.usuario.domain;
+package br.ufpi.usuario.domain.model;
 
 import java.time.LocalDate;
 
