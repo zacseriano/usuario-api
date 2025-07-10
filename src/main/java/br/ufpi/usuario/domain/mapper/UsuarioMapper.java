@@ -12,7 +12,6 @@ import br.ufpi.usuario.domain.model.Usuario;
 public interface UsuarioMapper extends EntityMapper<UsuarioDto, Usuario, UsuarioForm>{
 	UsuarioDto toDto(Usuario entity);
 	@Mappings({
-		@Mapping(target = "dataAdesao", ignore = true),
 		@Mapping(target = "situacao", ignore = true)
 	})
 	Usuario toModel(UsuarioForm form);

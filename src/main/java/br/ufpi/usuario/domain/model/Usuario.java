@@ -1,7 +1,5 @@
 package br.ufpi.usuario.domain.model;
 
-import java.time.LocalDate;
-
 import br.ufpi.usuario.domain.enuns.SituacaoEnum;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
@@ -20,7 +18,5 @@ public class Usuario extends GenericModel {
 	private String nome;
 	private String cpf;
 	private String email;
-	private String senha;
-	private LocalDate dataAdesao;
 	private SituacaoEnum situacao;
 }
